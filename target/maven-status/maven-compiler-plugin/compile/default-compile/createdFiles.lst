@@ -1,7 +1,0 @@
-cn\hebin\domain\Account.class
-cn\hebin\dao\AccountDao.class
-cn\hebin\service\AccountService.class
-cn\hebin\service\impl\AccountServiceImpl.class
-cn\hebin\test\MybatisTest.class
-cn\hebin\controller\AccountController.class
-cn\hebin\test\ServiceTest.class
