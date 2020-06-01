@@ -13,7 +13,7 @@ CSDN: https://blog.csdn.net/weixin_44505194/article/details/106465333
 
 	![在这里插入图片描述](https://img-blog.csdnimg.cn/2020060108093813.png)
 
-- 数据库：
+3. 数据库：
 	**ssm_crud.sql**
 	```sql
 	DROP database IF EXISTS `ssm_crud`;
