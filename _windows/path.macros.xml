@@ -1,0 +1,5 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="MAVEN_REPOSITORY" value="E:\apache-maven-3.5.2\maven_repository" />
+  </component>
+</application>
