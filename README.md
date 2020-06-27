@@ -1,16 +1,35 @@
-# ssmcrud
-根据尚硅谷学习视频
-IDEA，SSM框架写的员工增删改查
-功能点• 
-1、分页• 
-2、数据校验• jquery前端校验+JSR303后端校验• 
-3、ajax• 
-4、Rest风格的URI；使用HTTP协议请求方式的动词，来表示对资源的操作（GET（查询），POST（新增），PUT（修改），DELETE（删除)
+# ssm_crud : SSM框架整合之CRUD操作
+CSDN: https://blog.csdn.net/weixin_44505194/article/details/106465333
 
-技术点
-• 基础框架-ssm（SpringMVC+Spring+MyBatis）
-• 数据库-MySQL• 前端框架-bootstrap快速搭建简洁美观的界面
-• 项目的依赖管理-Maven• 分页-pagehelper
-• 逆向工程-MyBatis Generat
+ - 说明：
+ 	主要将SSM框架整合，做简单的业务逻辑操作CRUD，所以前端并不怎么好看，但是业务逻辑更集中SSM整合和CRUD操作，非常适合刚学过Sping + SpringMVC +Mybatis的伙伴。
+		
+ - 展示：
+ 1. 前台页面：
+ 
+	![在这里插入图片描述](https://img-blog.csdnimg.cn/20200601080446657.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDUwNTE5NA==,size_16,color_FFFFFF,t_70)
 
-本人在编写过程中遇到的错误都写在了博客上面，欢迎查看：https://blog.csdn.net/qq_41548307
+2. 代码布局
+
+	![在这里插入图片描述](https://img-blog.csdnimg.cn/2020060108093813.png)
+
+3. 数据库：
+	**ssm_crud.sql**
+	```sql
+	DROP database IF EXISTS `ssm_crud`;
+	create database ssm_crud;
+	
+	use ssm_crud;
+	create table account(  
+	       id int primary key auto_increment,    
+	       name varchar(20),    
+	       money double 
+	);
+	
+	insert into account (name,money) values ('熊大',100);
+	insert into account (name,money) values ('熊二',200);
+	insert into account (name,money) values ('熊三',300);
+	```
+	![在这里插入图片描述](https://img-blog.csdnimg.cn/20200601082118258.png)
+	
+	**项目代码我已开源至 [Github](https://github.com/hello-hebin/ssm_crud)**
