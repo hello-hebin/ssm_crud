@@ -6,6 +6,10 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="hello-hebin" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitee.com" />
+          <option name="userName" value="hello-hebin" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
