@@ -1,6 +1,7 @@
 <application>
   <component name="ProjectViewSharedSettings">
     <option name="compactDirectories" value="true" />
+    <option name="hideEmptyPackages" value="false" />
     <option name="showExcludedFiles" value="false" />
   </component>
 </application>
