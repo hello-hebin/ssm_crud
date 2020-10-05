@@ -2,7 +2,7 @@
   <component name="ProjectViewSharedSettings">
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyPackages" value="false" />
-    <option name="showExcludedFiles" value="false" />
-    <option name="showModules" value="false" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
 </application>
