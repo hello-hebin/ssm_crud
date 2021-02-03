@@ -45,6 +45,7 @@
       <option name="send-app-info" value="true" />
       <option name="source-loading" value="USER_SOURCES" />
       <option name="schema-control" value="AUTOMATIC" />
+      <property name="serverTimezone" value="UTC" />
       <library>
         <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar</url>
       </library>
